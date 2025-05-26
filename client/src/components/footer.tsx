@@ -75,7 +75,7 @@ function Footer() {
                         >
                           My Monitor
                         </a>
-                        
+                        <br />
                         © 2024 Powered by <a className='hover:underline' href="https://github.com/openRin/Rin" target="_blank">Rin</a>
                     </span>
                     {config.get<boolean>('rss') && <>
