@@ -59,9 +59,23 @@ function Footer() {
                             setDoubleClickTimes(doubleClickTimes + 1)
                         }
                     }}>
-                        <a href="https://www.chroha.com" target="_blank" style="color: #1abc9c; text-decoration: none; font-size: 16px; font-weight: bold;">My Navigation</a>
-                        <span style="color: black; margin: 0 10px;">|</span>
-                        <a href="https://monitor.chroha.com" target="_blank" style="color: #1abc9c; text-decoration: none; font-size: 16px; font-weight: bold;">My Monitor</a>                        
+                        
+                        <a
+                          href="https://www.chroha.com"
+                          target="_blank"
+                          style={{ color: '#1abc9c', textDecoration: 'none', fontSize: '16px', fontWeight: 'bold' }}
+                        >
+                          My Navigation
+                        </a>
+                        <span style={{ color: 'black', margin: '0 10px' }}>|</span>
+                        <a
+                          href="https://monitor.chroha.com"
+                          target="_blank"
+                          style={{ color: '#1abc9c', textDecoration: 'none', fontSize: '16px', fontWeight: 'bold' }}
+                        >
+                          My Monitor
+                        </a>
+                        
                         © 2024 Powered by <a className='hover:underline' href="https://github.com/openRin/Rin" target="_blank">Rin</a>
                     </span>
                     {config.get<boolean>('rss') && <>
